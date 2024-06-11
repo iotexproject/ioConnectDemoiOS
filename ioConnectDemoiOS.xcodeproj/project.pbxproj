@@ -181,7 +181,7 @@
 		C91AE7322C181926006B0250 /* crypto_values.h in Sources */ = {isa = PBXBuildFile; fileRef = C91AE68A2C181324006B0250 /* crypto_values.h */; };
 		C91AE7332C181926006B0250 /* crypto_compat.h in Sources */ = {isa = PBXBuildFile; fileRef = C91AE68B2C181324006B0250 /* crypto_compat.h */; };
 		C91AE7342C181926006B0250 /* storage_common.h in Sources */ = {isa = PBXBuildFile; fileRef = C91AE68C2C181324006B0250 /* storage_common.h */; };
-		C96EF7A32C18464400AAD330 /* libioConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EF7A22C18464400AAD330 /* libioConnectSDK.a */; };
+		C96EF7B02C186D6100AAD330 /* libioConnectCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EF7AF2C186D6100AAD330 /* libioConnectCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -365,7 +365,7 @@
 		C91AE68B2C181324006B0250 /* crypto_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_compat.h; sourceTree = "<group>"; };
 		C91AE68C2C181324006B0250 /* storage_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storage_common.h; sourceTree = "<group>"; };
 		C91AE7382C181E40006B0250 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
-		C96EF7A22C18464400AAD330 /* libioConnectSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libioConnectSDK.a; sourceTree = "<group>"; };
+		C96EF7AF2C186D6100AAD330 /* libioConnectCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libioConnectCore.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,7 +373,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96EF7A32C18464400AAD330 /* libioConnectSDK.a in Frameworks */,
+				C96EF7B02C186D6100AAD330 /* libioConnectCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +405,8 @@
 				C91AE5AF2C181314006B0250 /* AppDelegate.h */,
 				C91AE5B02C181314006B0250 /* AppDelegate.m */,
 				C91AE5B22C181314006B0250 /* SceneDelegate.h */,
-				C96EF7A22C18464400AAD330 /* libioConnectSDK.a */,
 				C91AE5B32C181314006B0250 /* SceneDelegate.m */,
+				C96EF7AF2C186D6100AAD330 /* libioConnectCore.a */,
 				C91AE5B52C181314006B0250 /* ViewController.h */,
 				C91AE5B62C181314006B0250 /* ViewController.m */,
 				C91AE5B82C181314006B0250 /* Main.storyboard */,
